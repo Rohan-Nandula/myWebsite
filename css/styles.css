@@ -1,0 +1,175 @@
+body{
+    /* we want the margin of all 4 sides=0 */
+    margin: 0;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 175%; /*if we decide to use percentages, then 100%==16px ===> if we want 28px in % ==> (100*28)/16 = 175%*/
+}
+h1{
+    /*even after we remove the browser specific css for the body we still have browser specific css for the HEADER h1
+    identified by the chrome developer tools::::::::: therefore, we override that css as well here*/
+    margin: 30px auto 0 auto;
+    font-size:4.375rem;/* (100*70)/16 = 4.375em */
+    color:#66BFBF;
+}
+h2{
+    margin-top: 25px;
+    font-size: 2.5rem;
+    font-family: 'Indie Flower', cursive;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h4{
+    font-size: 18px;
+    margin-bottom:2px;
+}
+h3{
+    margin-bottom: 0;
+    top:200px;
+    color:#11999E;
+}
+hr{
+    border-style:none none dotted none;
+    height: 3px;
+    border-width: 10px;
+    width:175px;
+    color:#9FE2BF;
+    margin-bottom: 60px;
+}
+a{
+    color:#11999E;
+    margin:40px 20px;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+
+
+
+
+#ContactMe{
+    font-size: 75%;
+}
+#profilephoto{
+    margin:20px 0 0px;
+    border-radius: 50%;
+    border: solid;
+    border-color: bisque;
+    border-width: 5px;
+    width: 200px;
+    height: 200px;
+}
+#pointdown{
+    font-size: 200%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#copyright{
+    color:#EAF6F6;
+    font-size:1.3rem;
+    margin-top:50px;
+}
+
+
+
+
+.topcontainer{
+    background-color: #E4F9F5;
+    position:relative; /*to make the clouds' parent as topcontainer*/
+    padding-top:100px;
+    padding-bottom: 20px;
+    margin-bottom:5px;
+    height:581px;
+}
+.mountain{
+    height:359px;
+}
+.top-cloud{
+    position:absolute;
+    right:270px;
+    top:50px;
+}
+.bottom-cloud{
+    position:absolute;
+    left:250px;
+    bottom: 270px;
+}
+.firsticon{
+    border-radius: 20%;
+    border:solid;
+    border-color: silver;
+    border-width: 5px;
+    width:200px;
+    height:200px;
+    float:left; /*this is making the icon float on the left side of the container and allows the text to wrap around the image*/
+    margin-right:30px;
+    position:relative;
+    top:18px;
+}
+.englishicon{
+    border-radius: 20%;
+    border: solid;
+    border-color: blue;
+    border-width: 5px;
+    width:200px;
+    height:200px;
+    float:right;
+    margin-left:20px;
+    position:relative;
+    top:25px;
+    
+}
+.profile{
+    width:50%;
+    margin:0px auto 70px auto;
+    text-align:center;
+    line-height: 2;
+}
+.skills{
+    margin-top: 50px;
+}
+.skill-row{
+    width:50%;
+    margin:50px auto 50px auto;/* auto makes the margin align to how its parent is aligned(center)*/
+    text-align:left;
+    line-height: 2;
+}
+.btn {
+    background: #008cff;
+    background-image: -webkit-linear-gradient(top, #008cff, #47d93c);
+    background-image: -moz-linear-gradient(top, #008cff, #47d93c);
+    background-image: -ms-linear-gradient(top, #008cff, #47d93c);
+    background-image: -o-linear-gradient(top, #008cff, #47d93c);
+    background-image: linear-gradient(to bottom, #008cff, #47d93c);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #435fba;
+    background-image: -webkit-linear-gradient(top, #435fba, #00ff1a);
+    background-image: -moz-linear-gradient(top, #435fba, #00ff1a);
+    background-image: -ms-linear-gradient(top, #435fba, #00ff1a);
+    background-image: -o-linear-gradient(top, #435fba, #00ff1a);
+    background-image: linear-gradient(to bottom, #435fba, #00ff1a);
+    text-decoration: none;
+  }
+  .bottom-container{
+      margin:70px auto 0px auto;
+      background-color:#66BFBF;
+      padding:50px 0 10px;
+  }
+  .footer-link{
+      color:#11999E;
+      text-decoration: none;
+  }
+  .footer-link:hover{
+      color:blanchedalmond;
+  }
+  
